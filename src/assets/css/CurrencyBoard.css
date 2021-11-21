@@ -1,0 +1,47 @@
+.currency-board {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 45px;
+  border-radius: 10px;
+}
+
+select {
+  font-weight: 600;
+}
+
+.balance {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.amount-wrap {
+  display: flex;
+}
+
+.symbol {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  margin-right: 10px;
+  line-height: 1;
+  margin-top: -5px;
+}
+
+.amount {
+  font-size: 20px;
+  border: none;
+  padding-top: 2px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  width: 75px;
+}
+
+.amount:focus-visible {
+  outline: none;
+}
+
+.exceeds {
+  color: #e31b55;
+  margin-top: 10px;
+}
